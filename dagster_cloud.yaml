@@ -1,0 +1,4 @@
+locations:
+  - location_name: ecommerce_orchestrator
+    code_source:
+      python_file: orchestrator.py

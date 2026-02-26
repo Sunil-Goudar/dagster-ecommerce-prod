@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecommerce_orchestrator"
+version = "0.1.0"
+dependencies = [
+    "dagster",
+    "dagster-cloud",
+    "dagster-dbt",
+    "snowflake-connector-python",
+    "python-dotenv"
+]
